@@ -1,8 +1,0 @@
-- name: Tests AAP playbook feature through debug 
-  hosts: all
-  become: true
-
-  tasks:
-    - name: tests print
-      debug:
-        msg: Tests playbook
