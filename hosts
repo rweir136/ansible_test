@@ -1,0 +1,16 @@
+---
+all:
+  children:
+    control:
+      hosts:
+        ControlNode:
+          ansible_host: 52.53.249.50
+          ansible_user: ansible
+    webservers:
+      hosts:
+        TargetNode-1:
+          ansible_host: 54.183.147.175
+          ansible_user: ansible
+        TargetNode-2:
+          ansible_host: 13.57.201.202
+          ansible_user: ansible

@@ -1,0 +1,9 @@
+- name: Tests AAP playbook feature through dnf 
+  hosts: all
+  become: true
+
+  tasks:
+    - name: tests dnf
+      dnf:
+        name: httpd
+        state: present
